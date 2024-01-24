@@ -25,7 +25,7 @@ namespace WebAPIBlogTracker.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("server=LAPTOP-KP6PKP4L;database=capstoneproject;trusted_connection=true;");
+                optionsBuilder.UseSqlServer("Server=tcp:serverchaitanya258.database.windows.net,1433;Initial Catalog=capstoneprojectDb;Persist Security Info=False;User ID=chaitu183;Password=18179149@Ch;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
             }
         }
 
